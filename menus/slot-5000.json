@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle slot-5000",
+        "command": "slot-5000:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "slot-5000",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "slot-5000:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
